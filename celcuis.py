@@ -4,5 +4,11 @@
 fahrenheit = float(input("What temp (in fahrenheit) would you like to convert to celsuis? "))
 celsuis = (fahrenheit - 32) * 5 / 9 # formular to get the Celsuis
 print(fahrenheit, "F is equal to ",  round(celsuis, 2 ), "C") # The round 2 makes it to round the anser to two decimal place
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a5799725a92aeb7b025927b68adf89632c60e1af
 print(fahrenheit, "F is",  round(celsuis, 2 ), "C") # The round and 2 rounds the output to two decimal places
 
+>>>>>>> a5799725a92aeb7b025927b68adf89632c60e1af
