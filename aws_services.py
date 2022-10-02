@@ -1,9 +1,12 @@
 #!/usr/bin/env pyhon3.7
 services_list = []
-services_list.append('ecr')
-print(services_list)
+services_list.append('ECR')
+services_list.append('LAMBDA')
+services_list.append('EC2')
+services_list.append('IAM')
+print("Total number of services:",services_list)
 print("The lenght of services_list is:", len(services_list))
-#services_list.remove('ecr')
-
-###print("Deleting two specific services:")
+del services_list[0:2]
+print("The new of lengh of services after two deleted:", len(services_list))
+print("Services after two deleted:" ,services_list)
 
