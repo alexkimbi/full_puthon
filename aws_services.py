@@ -2,7 +2,7 @@
 services_list = []
 services_list.append('ecr')
 print(services_list)
-#print("The lenght of services_list is:", len(services_list))
+print("The lenght of services_list is:", len(services_list))
 #services_list.remove('ecr')
 
 ###print("Deleting two specific services:")
