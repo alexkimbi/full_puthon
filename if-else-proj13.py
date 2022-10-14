@@ -10,6 +10,3 @@ elif value1 == value2:
         print("Both values are thesame")
 else:
     print("The number on value1 looks smaller, so value2 is bigger")
-        
-
-        
