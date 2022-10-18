@@ -5,3 +5,4 @@ response = s3.list_buckets()
 print('Printing Existing buckets...:')
 for bucket in response['Buckets']:
     print(f'  {bucket["Name"]}')
+    
