@@ -15,3 +15,4 @@ response = ec2.create_tags(
         },
     ]
 )
+
