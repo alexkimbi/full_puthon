@@ -2,9 +2,9 @@ import boto3
 ec2 = boto3.resource('ec2')
 
 instances = ec2.create_instances(
-        ImageId="ami-0dafa01c8100180f8",
+        ImageId="ami-013f17f36f8b1fefb",
         MinCount=1,
         MaxCount=1,
         InstanceType="t2.micro",
-        KeyName="KeyPair1"
+        KeyName="my-publicKP"
     )
